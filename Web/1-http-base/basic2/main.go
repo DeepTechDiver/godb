@@ -25,3 +25,14 @@ func main() {
 	engine := new(Engine)
 	log.Fatal(http.ListenAndServe(":9999", engine))
 }
+
+/**
+
+解读:
+定义了一个空结构体: Engine 实现了一个方法: ServeHTTP
+ServeHTTP () 第一个参数 可以利用ResponseWriter来构造针对该请求的响应  第二个参数 Request 包含了该HTTP请求的所有的信息（请求地址、Header和Body等信息）
+
+
+实现Web框架的第一步，即，将所有的HTTP请求转向了我们自己的处理逻辑
+
+*/
