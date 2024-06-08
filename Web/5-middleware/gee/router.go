@@ -67,13 +67,20 @@ func (r *router) getRoute(method string, path string) (*node, map[string]string)
 	return nil, nil
 }
 
+// 执行路由映射表对应的请求函数方法的封装
 func (r *router) handle(c *Context) {
 	n, params := r.getRoute(c.Method, c.Path)
 	if n != nil {
 		c.Params = params
 		key := c.Method + "-" + n.pattern
-		r.handlers[key](c)
+		// handle 函数中
+		// 从路由匹配得到的 Handler 添加到 c.handlers列表中，执行c.Next()。
+		c.handlers = append(c.handlers, r.handlers[key])
+		//r.handlers[key](c)
 	} else {
-		c.String(http.StatusNotFound, "404 NOT FOUND: %s\n", c.Path)
+		c.handlers = append(c.handlers, func(c *Context) {
+			c.String(http.StatusNotFound, "404 NOT FOUND: %s\n", c.Path)
+		})
 	}
+	c.Next()
 }
