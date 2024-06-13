@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd181631-bb4b-49c7-b7cb-43e8651a7ba0" name="更改" comment="gee -- 5">
-      <change beforePath="$PROJECT_DIR$/Web/5-middleware/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Web/5-middleware/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/1-lru/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/1-lru/geecache/lru/lru_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +70,13 @@
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web\2-context\gee" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1StudyFiles\GoWork\src\gofw\Cache\1-lru\geecache" />
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web" />
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web\http-base" />
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web\basic1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (4)">
+  <component name="RunManager" selected="Go 测试.gofw/Cache/1-lru/geecache/lru 中的 TestGet">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gofw" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,22 +113,24 @@
       <filePath value="$PROJECT_DIR$/Web/5-middleware/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="gofw/Cache/1-lru/geecache/lru 中的 TestGet" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gofw" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="gofw" />
+      <working_directory value="$PROJECT_DIR$/Cache/1-lru/geecache/lru" />
+      <kind value="PACKAGE" />
+      <package value="gofw/Cache/1-lru/geecache/lru" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Web/2-context/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGet\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 测试.gofw/Cache/1-lru/geecache/lru 中的 TestGet" />
         <item itemvalue="Go 构建.go build main.go (4)" />
         <item itemvalue="Go 构建.go build main.go (3)" />
         <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build main.go (1)" />
-        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
