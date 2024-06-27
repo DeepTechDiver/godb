@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd181631-bb4b-49c7-b7cb-43e8651a7ba0" name="更改" comment="gee -- 5">
-      <change afterPath="$PROJECT_DIR$/Cache/1-lru/geecache/lru/lru.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cache/1-lru/geecache/lru/lru_test.go" afterDir="false" />
+    <list default="true" id="cd181631-bb4b-49c7-b7cb-43e8651a7ba0" name="更改" comment="gee -- 6">
+      <change afterPath="$PROJECT_DIR$/test/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/类型断言.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/1-lru/geecache/lru/lru.go" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/1-lru/geecache/lru/lru.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,6 +71,7 @@
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web\2-context\gee" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1StudyFiles\GoWork\src\gofw\test" />
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Cache\1-lru\geecache" />
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web" />
       <recent name="D:\1StudyFiles\GoWork\src\gofw\Web\http-base" />
@@ -154,7 +156,8 @@
     <MESSAGE value="gee 第三天" />
     <MESSAGE value="gee 第四天" />
     <MESSAGE value="gee -- 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="gee -- 5" />
+    <MESSAGE value="gee -- 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="gee -- 6" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
